@@ -134,3 +134,5 @@ C. **Task**
 - implement bulk sms as part of notification
 - use websockets 
 - perform analysis and track task progress
+- instant notification on whatsapp group
+
