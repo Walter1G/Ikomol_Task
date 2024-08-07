@@ -27,6 +27,7 @@ The task assister is an Ikomol Proprietery application that assist in task manag
 - statLevel
 - createdat
 - updatedat
+- password
 ```
 2. #### Team
 
