@@ -16,6 +16,8 @@ The task assister is an Ikomol Proprietery application that assist in task manag
 
 ```sql
 - ID (PK)
+- fname
+- lname
 - username
 - email
 - PhoneNumber
@@ -111,10 +113,29 @@ The task assister is an Ikomol Proprietery application that assist in task manag
 
 ### Api EndPoints
 A. **Users**
-1. **POST /users** - Create a new user
-2. **GET /users** - Get all users
-3. **GET /user/id** -Get Specific user
-4. **PUT /user/id** - Update user
+1. **POST /users** - Create a new user <br>
+    {
+        "user_key":"user_value",<br>
+        .<br>
+        .<br>
+        .        <br>
+    }
+2. **GET /users** - Get all users <br>
+ {
+        "user_key":"user_value"*,<br>
+        .<br>
+        .<br>
+        .  <br>      
+    }
+3. **GET /user/id** -Get Specific user <br>
+{
+    "id":"id"
+}
+4. **PUT /user/id** - Update user <br>
+{
+    "id":"id",<br>
+    ["data_keys":"data_values",...]*<br>
+}
 
 B. **Team**
 1. **POST /team** - Create a new team
