@@ -157,6 +157,9 @@ C. **Task**
 The system should also be able to handle user router information, including serial number, and type of the router. This is to track and enable management of the router. 
 It can assist to reset the oneISP user Mac or monitor routers interface on the ONT. 
 
+**Router table** <br>
+| ID (PK) | Serial Number | Router Type | Router MAC | Router SN |userID (FK) |
+
 ### Feature Recomendations
 
 - implement bulk sms as part of notification
