@@ -111,6 +111,8 @@ The task assister is an Ikomol Proprietery application that assist in task manag
 - Notifications keep users informed about task updates and other relevant information.
 
 
+
+
 ### Api EndPoints
 A. **Users**
 1. **POST /users** - Create a new user <br>
@@ -150,6 +152,10 @@ C. **Task**
 3. **GET /tasks/id** -Get Specific tasks
 4. **PUT /tasks/id** - Update a task
 5. **DELETE /tasks/id** - Delete a task
+
+### Other Functions 
+The system should also be able to handle user router information, including serial number, and type of the router. This is to track and enable management of the router. 
+It can assist to reset the oneISP user Mac or monitor routers interface on the ONT. 
 
 ### Feature Recomendations
 
